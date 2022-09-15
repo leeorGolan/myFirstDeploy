@@ -1,24 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import Box from "@mui/material/Box";
+import ModalOne from './components/ModalOne';
+//https://cdnb.artstation.com/p/assets/images/images/017/238/581/large/leeor-golan-arrowboy2.jpg?1555176369
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box display ='flex' flexDirection='column' justifyContent='center' alignItems='center'>
+      <h1>Hello</h1>
+      <ModalOne/>
+      <img alt='' src='https://cdnb.artstation.com/p/assets/images/images/017/238/581/large/leeor-golan-arrowboy2.jpg?1555176369'/>
+    </Box>
   );
 }
 
