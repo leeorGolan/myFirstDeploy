@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Box from "@mui/material/Box";
 import ModalOne from './components/ModalOne';
@@ -8,7 +8,7 @@ import ModalOne from './components/ModalOne';
 function App() {
   return (
     <Box display ='flex' flexDirection='column' justifyContent='center' alignItems='center'>
-      <h1>Hello</h1>
+      <h1>My first deppppploy</h1>
       <ModalOne/>
       <img alt='' src='https://cdnb.artstation.com/p/assets/images/images/017/238/581/large/leeor-golan-arrowboy2.jpg?1555176369'/>
     </Box>
