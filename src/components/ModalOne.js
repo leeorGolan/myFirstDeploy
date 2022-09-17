@@ -10,7 +10,7 @@ const style = {
   left: '50%',
  
   transform: 'translate(-50%)',
-  width: "calc(100vw - 560px)",
+  width: "calc(100vw - 30%)",
   height:"auto",
   bgcolor: 'background.paper',
   border: '0px solid #000',
