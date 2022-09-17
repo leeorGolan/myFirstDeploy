@@ -12,7 +12,7 @@ function App() {
       <h1>My first deppppploy</h1>
    
       <h1>My first deppppploy</h1>
-      <Typography sx={{color:'red'}}>My first deppppploy</Typography>
+      <Typography sx={{color:'red'}}>modal</Typography>
       <h1>My first deppppploy</h1>
       <h1>My first deppppploy</h1>
       <ModalOne/>
